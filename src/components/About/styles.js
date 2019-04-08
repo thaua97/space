@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  padding: 90px;
-  margin: 90px;
+  padding: 20px 20px 0 20px;
+  margin: 90px 90px 0 90px;
 
   @media screen and (max-width: 400px) {
     padding: 30px;
@@ -12,8 +12,6 @@ const Container = styled.div`
 const Section = styled.div`
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
   background-color: #F9FAF5;
 `
 const Title = styled.h1`
