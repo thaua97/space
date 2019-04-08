@@ -12,7 +12,11 @@ const Container = styled.div`
 const Section = styled.div`
   height: 100%;
   width: 100%;
+  margin-bottom: -100px;
   background-color: #9097fd;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 `
 const Box = styled.div`
   display: flex;
@@ -22,16 +26,17 @@ const Box = styled.div`
 
   @media screen and (max-width: 400px) {
     flex-flow: column;
-    justify-content: center
+    justify-content: center;
     align-items: center;
   }
 `
 const Text = styled.h1`
+  padding-bottom: 50px;
   color: #F9FAF5;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
+  text-align: center;
 `
-
 const Card = styled.div`
   width: 30%;
   margin: 0 10px 0 10px;
@@ -41,15 +46,14 @@ const Card = styled.div`
   transition: 0.3s;
 
   :hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
   }
 
   @media screen and (max-width: 400px) {
-    width: 50%;
+    width: 100%;
+    margin-bottom: 15px;
     padding-bottom: 40px;
     flex-flow: column;
-    justify-content: center
-    align-items: center;
   }
 ` 
 const CardImage = styled.img`

@@ -12,7 +12,10 @@ const Container = styled.div`
 const Section = styled.div`
   height: 100%;
   width: 100%;
+  margin-bottom: -90px;
   background-color: #F9FAF5;
+  background-repeat: no-repeat;
+  background-position: center;
 `
 const Title = styled.h1`
   color: #9097fd;

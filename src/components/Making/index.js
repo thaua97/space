@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
-import { Section, Container, Box, Card, CardImage, CardContent, CardTitle, CardText } from './styles'
+import { Section, Container, Box, Text, Card, CardImage, CardContent, CardTitle, CardText } from './styles'
 
 export default class Making extends Component {
     render () {
         return (
             <Section>
                 <Container>
+                    <Box>
+                        <Text>Algumas Funcionalidades</Text>
+                    </Box>
                     <Box>
                         <Card>
                             <CardImage src={require('../../images/clima.png')} />
