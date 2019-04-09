@@ -39,7 +39,7 @@ const Box = styled.div`
   display: flex;
   flex-flow: row;
   justify-content: center;
-  align-content: space-between;
+  align-content: space-around;
   align-items: center;
 
   @media screen and (max-width: 400px) {
