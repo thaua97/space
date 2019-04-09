@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  padding: 20px 20px 0 20px;
-  margin: 90px 90px 0 90px;
+  padding: 40px;
+  margin: 90px;
 
   @media screen and (max-width: 400px) {
     padding: 30px;
