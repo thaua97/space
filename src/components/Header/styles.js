@@ -77,11 +77,24 @@ const ToolbarItem = styled.a`
     cursor: pointer;
     display: block;
     padding: 1.5rem;
+    margin-right: ${props => props.margin || '0' };
     color: #F9FAF5;
     transition: 0.3s;
 
     :hover {
         background-color: #a0a6ff;
+    }
+`
+
+const ToolbarLogo = styled.img`
+    height: 100%;
+    width: 100px;
+    padding: 1.5rem;
+    margin-right: 78%;
+
+    @media screen and (max-width: 600px) {
+        visibility: hidden;
+        display: none;
     }
 `
 
@@ -151,6 +164,7 @@ const Button = styled.button`
         height: 75px;
         width: 100%;
         transition: 0.2s;
+        margin-top: -20%;
 
         :hover {
             height: 75px;
@@ -161,4 +175,4 @@ const Button = styled.button`
     
 ` 
 
-export { Container, Header, Box, Content, Image, Toolbar, ToolbarItem, Title, Text, Button }
+export { Container, Header, Box, Content, Image, Toolbar, ToolbarItem, ToolbarLogo, Title, Text, Button }

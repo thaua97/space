@@ -8,7 +8,8 @@ import {
     Text, 
     Image, 
     Toolbar, 
-    ToolbarItem, 
+    ToolbarItem,
+    ToolbarLogo,
     Button 
 } from './styles'
 
@@ -17,6 +18,7 @@ export default class First extends Component {
         return (
             <Header>
                 <Toolbar>
+                    <ToolbarLogo src={require('../../images/logo-w100.png')} />
                     <ToolbarItem href="https://gitlab.com/thaua97">Gitlab</ToolbarItem>
                     <ToolbarItem href="https://gitlab.com/thaua97">Wiki</ToolbarItem>
                 </Toolbar>   
